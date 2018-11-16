@@ -1,3 +1,5 @@
+body { font-family: sans-serif; }
+
 #card,
 #controlPanel {
     /*puts the card and control panel side by side*/
