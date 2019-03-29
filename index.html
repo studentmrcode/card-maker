@@ -11,33 +11,21 @@
 
     <!--box to represent the card-->
     <!--div stands for division and is used to make boxes-->
-    <div id="card">
-        <!--paragraph where the card title will show up-->
-        <p id="titleParagraph"></p>
-    </div>
+    <div id="card"></div>
 
     <!--box to hold the card editing controls-->
     <div id="controlPanel">
-        <p>Card color:</p>
+        <p>Text:</p>
+        <button id="happyBirthdayButton">Happy Birthday</button>
 
-        <!--button to make the card red-->
-        <button id="redButton">Red</button>
+        <p>Background color:</p>
+        <button id="yellowBackgroundColorButton">Yellow</button>
 
-        <p>Card title:</p>
+        <p>Text color:</p>
+        <button id="blueTextColorButton">Blue</button>
 
-        <!--text box for the user to type the card title-->
-        <input type="text" placeholder="card title" id="titleTextBox">
-
-        <p>Title color:</p>
-
-        <!--color picker for the user to set the color of the card title-->
-        <input type="color" id="titleColor">
-
-        <p>Title font size:</p>
-
-        <!--slider for the user to set the font size of the card title-->
-        <!--the value attribute sets where the slider starts and should match the value in the stylesheet-->
-        <input type="range" min="20" max="100" value="20" id="titleFontSize">
+        <p>Text size:</p>
+        <button id="size40Button">40 pixels</button>
     </div>
 
     <script type="text/javascript" src="script.js"></script>
